@@ -10,7 +10,7 @@
 
 <body>
     <form method="post" action="getdate.php">
-        <select name="day" id="day">
+        <select name="Day" id="Day">
             <option value="01">1</option>
             <option value="02">2</option>
             <option value="03">3</option>
@@ -43,7 +43,7 @@
             <option value="30">30</option>
             <option value="31">31</option>
         </select>
-        <select name="month" id="month">
+        <select name="Month" id="Month">
             <option selected value="1">January</option>
             <option value="2">February</option>
             <option value="3">March</option>

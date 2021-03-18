@@ -1,10 +1,11 @@
+<?php
+include "Calender.php";
+$day = $_POST["Day"];
+$month = $_POST["Month"];
 
-    <?php
-    include "Calender.php";
-    $day = $_POST["day"];
-    $month = $_POST["month"];
-
-    $calendar = new Calender();
-    $result = $calendar->getCalender($month, $day);
-    echo $result;
-    ?>
+$calendar = new Calender();
+$result = $calendar->getCalender($month, $day);
+?>
+<h1 id="res">
+    <?php echo $result ?>
+</h1>
